@@ -27,6 +27,9 @@ export default {
     this.$el.focus();
     document.addEventListener('keydown', this.handleKeydown);
   },
+  beforeDestroy() {
+    document.removeEventListener('keydown', this.handleKeydown);
+  }
 }
 </script>
 
