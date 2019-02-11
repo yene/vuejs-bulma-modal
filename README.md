@@ -1,4 +1,6 @@
-# modal-esc
+# Vue.js Bulma Modal
+
+See `Modal.vue` for the code.
 
 ## Closing a modal dialog by pressing ESC
 > The modal is shown and hidden with `v-if` this triggers mounted on every open.
